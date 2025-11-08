@@ -1,12 +1,13 @@
 import { Component, inject } from '@angular/core';
 import { ProductsService } from '../../data-access/products.service';
+import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-product-list',
-  imports: [],
+  standalone: true,
+  imports: [CommonModule],
   templateUrl: './product-list.html',
   styleUrl: './product-list.css',
-  providers: [ProductsService],
 })
 export default class ProductList {
 
