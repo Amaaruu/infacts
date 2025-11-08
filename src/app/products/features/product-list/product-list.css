@@ -1,0 +1,16 @@
+.product-image {
+  height: 250px;
+  object-fit: contain; /* Evita que la imagen se estire */
+  padding: 1rem;
+}
+
+.description-truncate {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+
+.card-price {
+  font-weight: bold;
+  color: #333;
+}
