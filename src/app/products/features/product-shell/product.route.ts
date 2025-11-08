@@ -9,4 +9,10 @@ export default [
         loadComponent: () => import('../product-list/product-list')
             .then(m => m.default), 
     },
+    {
+        path: ':id',
+        loadComponent: () => import('../product-detail/product-detail')
+            .then(m => m.ProductDetail),    
+
+    }
 ] as Routes;

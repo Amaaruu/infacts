@@ -1,0 +1,11 @@
+.imagen-detail{
+    height: 450px;
+    object-fit: contain; /* Evita que la imagen se estire */
+}
+
+.desc-detail{
+    margin-top: 2rem;
+    font-size: 1.2rem;
+    padding: 1rem;
+    
+}

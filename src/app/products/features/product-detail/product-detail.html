@@ -1,1 +1,22 @@
-<p>product-detail works!</p>
+<div class="container mt-4" *ngIf="product() as p; else loading">
+  <div class="row">
+    
+    <div class="col-md-6">
+      <img [src]="p.image" class="img-fluid rounded imagen-detail" [alt]="p.title">
+    </div>      
+    
+    <div class="col-md-5 desc-detail">
+      <h2>{{ p.title }}</h2>
+      <h4 class="text-muted">{{ p.category }}</h4>
+      <p>{{ p.description }}</p>
+      <h3 class="my-3">${{ p.price }}</h3>
+      <button class="btn btn-primary btn-lg">Añadir al carrito</button>
+    </div>
+  </div>
+</div>
+
+<ng-template #loading>
+  <div class="container mt-4">
+    <p>Cargando producto...</p>
+  </div>
+</ng-template>

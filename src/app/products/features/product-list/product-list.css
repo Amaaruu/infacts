@@ -1,10 +1,10 @@
 .product-image {
-  height: 250px;
+  height: 200px;
   object-fit: contain; /* Evita que la imagen se estire */
   padding: 1rem;
 }
 
-.description-truncate {
+.card-text {
   overflow: hidden;
   display: -webkit-box;
   -webkit-box-orient: vertical;
