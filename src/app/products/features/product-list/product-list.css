@@ -2,6 +2,12 @@
   height: 200px;
   object-fit: contain; /* Evita que la imagen se estire */
   padding: 1rem;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.product-image:hover {
+  transform: scale(1.05);
 }
 
 .card-text {

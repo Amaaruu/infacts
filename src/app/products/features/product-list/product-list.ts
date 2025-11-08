@@ -17,7 +17,6 @@ export default class ProductList {
   private productsService = inject(ProductsService);
 
   products = toSignal<Product[]>(this.productsService.getProducts());
-
-
+  
   constructor() {}
 }
