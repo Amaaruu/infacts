@@ -7,11 +7,11 @@
         <a [routerLink]="[product.id]">
         <img [src]="product.image" class="card-img-top product-image" [alt]="product.title">
         </a>
-        <div class="card-body d-flex flex-column">
+        <div class="card-body d-flex flex-column text-center">
           <h5 class="card-title">
             {{ product.title }}
           </h5>          
-          <div class="mt-auto text-center">
+          <div class="mt-auto">
             <h4 class="card-price">${{ product.price }}</h4>
             <a href="#" class="btn">Añadir al carrito</a>
           </div>
