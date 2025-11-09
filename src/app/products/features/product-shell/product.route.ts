@@ -1,5 +1,3 @@
-// En: src/app/products/features/product-shell/product.route.ts
-
 import { Routes } from "@angular/router";
 
 export default [

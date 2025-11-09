@@ -1,13 +1,13 @@
 .imagen-detail{
-    margin-top: 3rem auto;
-    height: 450px;
-    object-fit: contain; /* Evita que la imagen se estire */
+  margin-top: 1rem;
+  height: 450px;
+  object-fit: contain; /* Evita que la imagen se estire */
 }
 
 .desc-detail{
-    margin-top: 1rem;
-    font-size: 1rem;  
-    margin: 1rem auto;
+  margin-top: 1rem;
+  font-size: 1rem;  
+  margin: 1rem 0;
     
 }
 

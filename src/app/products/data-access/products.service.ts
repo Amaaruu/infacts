@@ -1,5 +1,3 @@
-// En: src/app/products/data-access/products.service.ts
-
 import { Injectable } from "@angular/core";
 import { BaseHttpService } from "../../shared/data-access/base-http.service";
 import { Product } from "../utils/product.interface";
